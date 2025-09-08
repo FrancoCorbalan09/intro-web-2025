@@ -3,95 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 2</title>
+    <title>“Argentina inspirada” y “aplastaron a los All Blacks”: la reacción de los medios en Nueva Zelanda tras el histórico triunfo de Los Pumas</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- https://www.infobae.com/deportes/2025/08/24/argentina-inspirada-y-aplastaron-a-los-all-blacks-la-reaccion-de-los-medios-en-nueva-zelanda-tras-el-historico-triunfo-de-los-pumas/ -->
-    
-    <!-- Contendor Barra de navegacion -->
-    <div>
+    <!-- Encabezado con navegación -->
+    <header class="navbar">
+        <div class="navbar-left">
+            <div class="fecha">8 Sep, 2025</div>
+        </div>
         <nav>
-            <u>
-            <a>Argentina</a>
-            <a>Colombia</a>
-            <a>España</a>
-            <a>México</a>
-            <a>Deportes</a>
-            <a>Sociedad</a>
-            </u>
-        </nav>
-        <form action="registro.html" method="get">
-            <button type="submit">REGISTRARME</button>
-        </form>  
-    </div>
+            <ul class="menu">
+                <li><a href="#" class="menu-item">Argentina</a></li>
+                <li><a href="#" class="menu-item">Colombia</a></li>
+                <li><a href="#" class="menu-item">España</a></li>
+                <li><a href="#" class="menu-item">México</a></li>
+                <li><a href="#" class="menu-item">Perú</a></li>
+                <li><a href="#" class="menu-item">Mundo</a></li>
+                <li><a href="#" class="menu-item">Últimas Noticias</a></li>
+                <li><a href="#" class="menu-item">Política</a></li>
+                <li><a href="#" class="menu-item">Economía</a></li>
+                <li><a href="#" class="menu-item">Teleshow</a></li>
+                <li><a href="#" class="menu-item">Deportes</a></li>
+                <li><a href="#" class="menu-item">Sociedad</a></li>
+            </ul>
+        </nav>      
+        <div class="acciones">
+            <form action="registro.html" method="get" style="display: inline;">
+                <button type="submit" class="btn-registrar">REGISTRARME</button>
+            </form>
+            <form action="login.html" method="get" style="display: inline;">
+                <button type="submit" class="btn-login">INICIAR SESIÓN</button>
+            </form>
+        </div> 
+    </header>
+        <div class="container">
+                <!-- Artículo principal -->
+                <main class="main-article">
+                    <!-- Breadcrumb -->
+                    <nav class="breadcrumb">
+                        <a href="#">DEPORTES</a> >
+                    </nav>
 
-    <!-- Contenedor Tiulo -->
-    <div>
-        <h1>“Argentina inspirada” y “aplastaron a los All Blacks”: la reacción de los medios en Nueva Zelanda tras el histórico triunfo de Los Pumas</h1>
-        <h2>El conjunto que dirige Felipe Contepomi superó 29-23 a los Hombres de Negro en Vélez por el Rugby Championship</h2>
-        <hr>
-    </div>
+                    <!-- Título principal -->
+                    <section>
+                        <h1 class="article-title">"Argentina inspirada" y "aplastaron a los All Blacks": la reacción de los medios en Nueva Zelanda tras el histórico triunfo de Los Pumas</h1>
+                        <h2 class="article-subtitle">El conjunto que dirige Felipe Contepomi superó 29-23 a los Hombres de Negro en Vélez por el Rugby Championship</h2>
+                        <hr class="separator">
+                    </section>
 
-    <!-- Contenedor Cuerpo -->
-    <div>
-        <img src="https://www.infobae.com/resizer/v2/BAO3JRFLYFDCJMKDBZL2TLQJQU.jpg?auth=2afe19f772c8f42ac8cd27e0bc8be7c3f1de5ac4b22becc9124023557742c0fd&smart=true&width=992&height=661&quality=85"> 
-        <h6>Rodrigo Isgro recibe los tackles de Codie Taylor y Fabian Holland (Photo by Diego LIMA / AFP)</h6>
-        <p>
-            El eco de <a href="https://www.infobae.com/deportes/2025/08/23/los-pumas-buscaran-un-triunfo-historico-ante-los-all-blacks-en-la-segunda-fecha-del-rugby-championship-hora-tv-y-formaciones/">la victoria de Los Pumas ante los All Blacks</a>
-            en Buenos Aires se sintió con fuerza en la prensa de <b>Nueva Zelanda</b>, que no dudó en calificar a su selección como <b>“indisciplinada”</b> y 
-            en subrayar la <b>superioridad argentina</b> durante el encuentro. Los medios neozelandeses, lejos de suavizar el golpe, reconocieron que el equipo dirigido por 
-            <b>Felipe Contepomi</b> logró un triunfo histórico, mientras que los visitantes pagaron caro sus errores, reflejados en tres <b>tarjetas amarillas</b>.
+                    <!-- Metadatos y botones -->
+                    <div class="article-meta">
+                        <span class="article-date">24 Ago, 2025 10:44 a.m. AR</span>
+                        <div class="share-buttons">
+                            <a href="#" class="share-btn" title="Facebook">f</a>
+                            <a href="#" class="share-btn" title="WhatsApp">⟲</a>
+                            <a href="#" class="share-btn" title="Twitter">𝕏</a>
+                            <a href="#" class="share-btn" title="LinkedIn">in</a>
+                            <a href="#" class="share-btn" title="Telegram">✈</a>
+                            <a href="#" class="save-btn"> Guardar</a>
+                        </div>
+                    </div>
+
+            <!-- Contenido principal -->
+            <article>
+                <figure class="main-image">
+                <img src="https://www.infobae.com/resizer/v2/BAO3JRFLYFDCJMKDBZL2TLQJQU.jpg?auth=2afe19f772c8f42ac8cd27e0bc8be7c3f1de5ac4b22becc9124023557742c0fd&smart=true&width=992&height=661&quality=85">
+                <figcaption class="image-caption">Rodrigo Isgro recibe los tackles de Codie Taylor y Fabian Holland (Photo by Diego LIMA / AFP)</figcaption>
+            </figure>
+            <p>El eco de <a href="https://www.infobae.com/deportes/2025/08/23/los-pumas-buscaran-un-triunfo-historico-ante-los-all-blacks-en-la-segunda-fecha-del-rugby-championship-hora-tv-y-formaciones/">la victoria de Los Pumas ante los All Blacks</a> en Buenos Aires se sintió con fuerza en la prensa 
+                de <b>Nueva Zelanda</b>, que no dudó en calificar a su selección como <b>“indisciplinada”</b> y en subrayar la <b>superioridad argentina</b> durante el encuentro.Los medios
+                neozelandeses, lejos de suavizar el golpe, reconocieron que el equipo dirigido por <b>Felipe Contepomi</b> logró un triunfo histórico, mientras que los 
+                visitantes pagaron caro sus errores, reflejados en tres <b>tarjetas amarillas</b>.
+            </p>
+            <p> El resultado en favor de los argentinos por <b>29-23</b> en el estadio de <b>Vélez</b>, marcó la primera vez que <b>Argentina</b> derrota a los <b>All Blacks</b> en su propio país, sumando así la cuarta victoria en el historial entre ambos seleccionados. El partido se caracterizó por la intensidad física, la ausencia de espacios para los backs y un contacto permanente, en el que 
+                ni siquiera el tradicional haka logró intimidar a los locales. 
+            </p>
+            <p> La prensa neozelandesa no escatimó en autocrítica. El portal Stuff tituló: <b>“Los All Blacks, indisciplinados, sufren su primera derrota ante Los Pumas en Argentina”</b>, y 
+                añadió que el equipo argentino <b>“mereció plenamente su éxito en este partido”</b>, mientras que los <b>All Blacks</b> tienen <b>“una montaña de trabajo por delante”</b>. 
+            </p>
+
+            <figure>
+                <img src="https://www.infobae.com/resizer/v2/2XHC7A42ARCAZPHMNAM5V4WAXI.jpg?auth=a438ff36dbf285a6cf471191c6eb7618c0ccb4694d48821052370eb20ceea87e&smart=true&width=992&height=766&quality=85">
+            </figure>
+
+            <p> Por su parte, 1News destacó: <b>“Los Pumas hacen historia al aplastar a los All Blacks en casa”</b>, y remarcó que <b>“una Argentina inspirada venció por primera vez en su estadio a los All Blacks, pero la mala disciplina de los visitantes, que se tradujo en tres tarjetas amarillas, les costó cara en Buenos Aires”</b>. </p>
+            <p> El New Zealand Herald también subrayó el carácter histórico del encuentro: <b>“Historia para Los Pumas. El equipo de Felipe Contepomi rompió su barrera al sorprender a los erráticos All Blacks en casa por primera vez”</b>. </p>
+            <p> El desempeño de <b>Los Pumas</b> en este partido reflejó una mejora notable respecto al encuentro anterior, en el que habían caído en Córdoba. La solidez mostrada en varios pasajes del juego permitió al seleccionado argentino imponerse ante el considerado mejor equipo del mundo, que no logró hacer valer ni el peso de su camiseta ni el ADN que distingue al rugby de <b>Nueva Zelanda</b>. </p>
+
+            <figure>
+                <img src="https://www.infobae.com/resizer/v2/HUGHJTWFNJBKNI4UUZAEVHGOPA.jpg?auth=2b389b682ca15371e316c5915406ba0efbbdc2eea5aa2387b2e04c64b7419271&smart=true&width=992&height=981&quality=85">
+                <figcaption>Otra imagen del partido</figcaption>
+            </figure>
+
+            <p> Este triunfo se inscribe como uno de los capítulos más destacados en la historia del rugby argentino. Hasta este sábado, <b>Nueva Zelanda</b> era la única de las grandes potencias que permanecía invicta en territorio argentino. El llamado “Tier 1” del rugby mundial incluye a <b>Argentina, Nueva Zelanda, Australia, Sudáfrica, Escocia, Francia, Gales, Inglaterra, Irlanda</b> e <b>Italia</b>; nueve de estos diez equipos ocupan actualmente los primeros lugares del ranking de la <b> World Rugby</b>. </p>
+            <p> El recorrido de <b>Los Pumas</b> frente a las potencias comenzó en 1968, cuando vencieron a <b>Gales</b> por 9-5 en GEBA. En los años siguientes, el seleccionado argentino sumó victorias ante <b>Escocia</b> (20-3 en 1969) e <b>Irlanda</b> (8-3 en 1970), ambas en Buenos Aires. En 1979, con <b>Hugo Porta</b> como figura, llegó el primer triunfo ante <b>Australia</b> (24-13 en Ferro). </p>
+
+            <figure>
+                <img src="https://www.infobae.com/resizer/v2/EMUWIVWNBRACLFLW33GE6MWUCQ.jpg?auth=f2cd341ef7d686f40927c2207956e80a449e3d238a169ad7cc56fe1a3f7dbc32&smart=true&width=992&height=1007&quality=85">
+            </figure>
+
+            <p> El siguiente hito fue en 1985, cuando el equipo dirigido por <b>Héctor Silva</b> y <b>Ángel Guastella</b> superó a <b>Francia</b> por 24-16, también en Ferro. Ya en la cancha de <b>Vélez</b>, <b>Los Pumas</b> lograron nuevas victorias ante <b>Italia</b> (21-16 en 1989) e <b>Inglaterra</b> (15-3 en 1990). </p>
+            <p> Restaban solo dos rivales de peso: <b>Sudáfrica</b> y <b>Nueva Zelanda</b>. En 2016, <b>Argentina</b> venció a los <b>Springboks</b> por 26-24 en Salta, con un penal decisivo de <b>Santiago González Iglesias</b> a tres minutos del final. Finalmente, la victoria ante los <b> All Blacks</b> en Buenos Aires completó la lista, consolidando a <b>Los Pumas</b> como un equipo capaz de imponerse ante todas las potencias del rugby mundial. </p>
+            <p> “Primero, agradecerle a toda la gente por alentarnos hoy. La verdad que fue una fiesta hoy. <b>Estoy feliz por el equipo. Siempre digo que ganamos y perdemos juntos, y ver la felicidad de los chicos que no les tocó jugar, estaban muy felices con toda la gente del staff y las familias</b>. Entonces, nosotros somos 15 o 23 que nos toca jugar con la camiseta, pero todo el apoyo que hay atrás a veces no se ve. Es muy importante, estoy orgulloso por el equipo. <b>Tuvimos buenos momentos en el partido, otros más o menos, pero siempre nos quedamos en la pelea”</b>, comentó <b>Julián Montoya</b>, capitán de Los Pumas, en diálogo con ESPN. </p>
+            <p> <b>“Pusimos el cuerpo en cada jugada y en cada partido</b>.A veces sale mejor y otras peor. De hecho, ahora lo pienso y hubo oportunidades que no tomamos, como el final del primer tiempo que nos perdemos dos tries. Creo que el rugby es un poco eso, dejar de pensar en la perfección y lo mejor es quedarse en la pelea. En el contacto estuvo la clave. <b>Estoy muy feliz, fue el último partido de Nahuel (Tetaz Chaparro), hay muchas emociones juntas y va a ser un día muy especial que no voy a olvidar nunca en mi vida”</b>, agregó el hoocker tras una victoria inolvidable. </p>
+        </article>
+    </main>
+
+<!-- Video relacionado -->
+<section>
+    <iframe src="https://www.espn.com.ar/core/video/iframe?id=15583737&endcard=false"  
+            width="1040" height="760" frameborder="0" allowfullscreen></iframe>
+    <hr>
+</section>
+
+<!-- Pie de página -->
+<footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">infobae</div>
             
-        </p>
-        <p>
-            El resultado en favor de los argentinos por <b>29-23</b> en el estadio de <b>Vélez</b>, marcó la primera vez que <b>Argentina</b> derrota a los <b>All Blacks</b> en su propio país, sumando así la cuarta victoria en el historial entre
-            ambos seleccionados. El partido se caracterizó por la intensidad física, la ausencia de espacios para los backs y un contacto permanente, en el que ni siquiera el tradicional haka logró intimidar a los locales. 
-        </p>
-        <p>
-            La prensa neozelandesa no escatimó en autocrítica. El portal Stuff tituló: <b>“Los All Blacks, indisciplinados, sufren su primera derrota ante Los Pumas en Argentina”</b>, y añadió que el equipo argentino <b>“mereció 
-            plenamente su éxito en este partido”</b>, mientras que los <b>All Blacks</b> tienen <b>“una montaña de trabajo por delante”</b>.
-        </p>
-        
-        <img src="https://www.infobae.com/resizer/v2/2XHC7A42ARCAZPHMNAM5V4WAXI.jpg?auth=a438ff36dbf285a6cf471191c6eb7618c0ccb4694d48821052370eb20ceea87e&smart=true&width=992&height=766&quality=85">
-        <p>
-            Por su parte, 1News destacó: <b>“Los Pumas hacen historia al aplastar a los All Blacks en casa”</b>, y remarcó que <b>“una Argentina inspirada venció por primera vez en su estadio a los All Blacks, pero la mala disciplina de los visitantes, 
-            que se tradujo en tres tarjetas amarillas, les costó cara en Buenos Aires”</b>. 
-        </p>
-        <p>
-            El New Zealand Herald también subrayó el carácter histórico del encuentro: <b>“Historia para Los Pumas. El equipo de Felipe Contepomi rompió su barrera al sorprender a los erráticos All Blacks en casa por primera vez”</b>.
-        </p>
-        <p>
-            El desempeño de <b>Los Pumas</b> en este partido reflejó una mejora notable respecto al encuentro anterior, en el que habían caído en Córdoba. La solidez mostrada en varios pasajes del juego permitió al seleccionado argentino imponerse ante el considerado mejor equipo del mundo, que no logró hacer valer ni el peso de su camiseta ni el ADN que distingue al rugby de <b>Nueva Zelanda</b>.
-        </p>
-        <img src="https://www.infobae.com/resizer/v2/HUGHJTWFNJBKNI4UUZAEVHGOPA.jpg?auth=2b389b682ca15371e316c5915406ba0efbbdc2eea5aa2387b2e04c64b7419271&smart=true&width=992&height=981&quality=85">
-        <p>
-            Este triunfo se inscribe como uno de los capítulos más destacados en la historia del rugby argentino. Hasta este sábado, <b>Nueva Zelanda</b> era la única de las grandes potencias que permanecía invicta en territorio argentino. El llamado “Tier 1” del rugby mundial incluye a <b>Argentina, Nueva Zelanda, Australia, Sudáfrica, Escocia, Francia, Gales, Inglaterra, Irlanda</b> e <b>Italia</b>; 
-            nueve de estos diez equipos ocupan actualmente los primeros lugares del ranking de la <b> World Rugby</b>.
-        </p>
-        <p>
-            El recorrido de <b>Los Pumas</b> frente a las potencias comenzó en 1968, cuando vencieron a <b>Gales</b> por 9-5 en GEBA. En los años siguientes, el seleccionado argentino sumó victorias ante <b>Escocia</b> (20-3 en 1969) e <b>Irlanda</b> (8-3 en 1970), ambas en Buenos Aires. En 1979, con <b>Hugo Porta</b> como figura, 
-            llegó el primer triunfo ante <b>Australia</b> (24-13 en Ferro).
-        </p>
-        <img src="https://www.infobae.com/resizer/v2/EMUWIVWNBRACLFLW33GE6MWUCQ.jpg?auth=f2cd341ef7d686f40927c2207956e80a449e3d238a169ad7cc56fe1a3f7dbc32&smart=true&width=992&height=1007&quality=85">
-        <p>
-            El siguiente hito fue en 1985, cuando el equipo dirigido por <b>Héctor Silva</b> y <b>Ángel Guastella</b> superó a <b>Francia</b> por 24-16, también en Ferro. Ya en la cancha de <b>Vélez</b>, <b>Los Pumas</b> lograron nuevas victorias ante <b>Italia</b> (21-16 en 1989) e <b>Inglaterra</b> (15-3 en 1990).
-        </p>
-        <p>
-            Restaban solo dos rivales de peso: <b>Sudáfrica</b> y <b>Nueva Zelanda</b>. En 2016, <b>Argentina</b> venció a los <b>Springboks</b> por 26-24 en Salta, con un penal decisivo de <b>Santiago González Iglesias</b> a tres minutos del final. Finalmente, la victoria ante los <b> All Blacks</b> en Buenos Aires completó la lista, consolidando a <b>Los Pumas</b> como un equipo capaz de imponerse ante todas las potencias del rugby mundial.
-        </p>
-        <p>
-            “Primero, agradecerle a toda la gente por alentarnos hoy. La verdad que fue una fiesta hoy. <b>Estoy feliz por el equipo. Siempre digo que ganamos y perdemos juntos, y ver la felicidad de los chicos que no les tocó jugar, estaban muy felices con toda la gente del staff y las familias</b>. Entonces, nosotros somos 15 o 23 que nos toca jugar con la camiseta, pero todo el apoyo que hay atrás a veces no se ve. Es muy importante, estoy orgulloso por el equipo. <b>Tuvimos buenos momentos en el partido, otros más o menos, pero siempre nos quedamos en la pelea”</b>, comentó <b>Julián Montoya</b>, capitán de Los Pumas, en diálogo con ESPN.
-        </p>
-        <p>
-            <b>“Pusimos el cuerpo en cada jugada y en cada partido</b>.A veces sale mejor y otras peor. De hecho, ahora lo pienso y hubo 
-            oportunidades que no tomamos, como el final del primer tiempo que nos perdemos dos tries. Creo que el rugby es un poco eso, dejar de pensar en la perfección y lo mejor es 
-            quedarse en la pelea. En el contacto estuvo la clave. <b>Estoy muy feliz, fue el último partido de Nahuel (Tetaz Chaparro), hay muchas emociones juntas y va a ser un día muy especial que no voy a olvidar nunca en mi vida”</b>, agregó el hoocker tras una victoria inolvidable.
-        </p>
-    </div>
-    <!-- Contenedor Video -->
-    <div>
-        <iframe src="https://www.espn.com.ar/core/video/iframe?id=15583737&endcard=false"  width="1040" height="760"  frameborder="0" allowfullscreen></iframe>
-        <hr>
-    </div>
+            <div class="footer-follow">Síguenos:</div>
+            
+            <div class="social-links">
+                <a href="#" class="social-link">f</a>
+                <a href="#" class="social-link">𝕏</a>
+                <a href="#" class="social-link">📷</a>
+                <a href="#" class="social-link">▶</a>
+                <a href="#" class="social-link">✈</a>
+                <a href="#" class="social-link">in</a>
+            </div>
+
+            <div class="footer-sections clearfix">
+                <div class="footer-column">
+                    <h4>Secciones</h4>
+                    <ul>
+                        <li><a href="#">América</a></li>
+                        <li><a href="#">Colombia</a></li>
+                        <li><a href="#">España</a></li>
+                        <li><a href="#">México</a></li>
+                        <li><a href="#">RSS</a></li>
+                        <li><a href="#">Perú</a></li>
+                        <li><a href="#">Últimas Noticias</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contáctenos</h4>
+                    <ul>
+                        <li><a href="#">Redacción</a></li>
+                        <li><a href="#">Contacto comercial</a></li>
+                        <li><a href="#">Media Kit</a></li>
+                        <li><a href="#">Empleo</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Legales</h4>
+                    <ul>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                Todos Los Derechos Reservados © 2025 Infobae
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
