@@ -10,9 +10,17 @@
 <body>
     <!-- Encabezado con navegación -->
     <header class="navbar">
+
+        <input id="nav-toggle" type="checkbox" hidden>
+        <label for="nav-toggle" class="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+        </label>
+
         <div class="navbar-left">
             <div class="fecha">8 Sep, 2025</div>
         </div>
+
+        </label>
         <nav>
             <ul class="menu">
                 <li><a href="#" class="menu-item">Argentina</a></li>
@@ -28,7 +36,7 @@
                 <li><a href="#" class="menu-item">Deportes</a></li>
                 <li><a href="#" class="menu-item">Sociedad</a></li>
             </ul>
-        </nav>      
+        </nav>
         <div class="acciones">
             <form action="registro.html" method="get" style="display: inline;">
                 <button type="submit" class="btn-registrar">REGISTRARME</button>

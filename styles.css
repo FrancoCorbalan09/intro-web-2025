@@ -1,4 +1,4 @@
- * {
+*   {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -41,7 +41,12 @@
             text-align: center;
             margin: 0;
             padding: 0;
+            display:block;
         }
+
+        .hamburger { display:none; width:20px;}
+        
+        .hamburger span{ display:block; height:2px; background:#333; margin:6px 0; transition:.2s; }
 
         .menu li {
             display: inline-block;
@@ -65,14 +70,14 @@
 
         .acciones {
             float: right;
-            margin-top: 2px;
+            margin-top: -30px;
+            display:block;
         }
 
         .btn-registrar, .btn-login {
             border: none;
             padding: 8px 16px;
             border-radius: 20px;
-            cursor: pointer;
             font-weight: 600;
             font-size: 12px;
             text-transform: uppercase;
@@ -382,10 +387,6 @@
             display: block;
         }
 
-        .news-title:hover {
-            color: #0066cc;
-        }
-
         .news-container::after {
             content: "";
             display: table;
@@ -606,3 +607,105 @@
             display: table;
             clear: both;
         }
+        
+/* MEDIA QUERY MOBILE*/
+        @media screen and (max-width: 480px){
+            .acciones,
+            .menu{
+                display: none;
+            }
+            .hamburger{ display:inline-block; }
+            .navbar-left{
+                float: right;
+                margin-right: 20px;
+            }
+            .container{ padding:12px; }
+            .main-article{ float:none; width:100%; padding-right:0; }
+            .sidebar{ display:none; } 
+
+            .breadcrumb{ font-size:12px; margin-bottom:12px; }
+            .article-title{ font-size:24px; line-height:1.25; margin-bottom:12px; }
+            .article-subtitle{ font-size:15px; line-height:1.4; margin-bottom:16px; }
+            .separator{ margin:18px 0; }
+
+            .article-meta{ font-size:12px; }
+            .article-date{ float:none; display:block; margin:0 0 8px 0; }
+            .share-buttons{ float:none; display:block; }
+            .share-btn{ width:32px; height:32px; line-height:30px; font-size:13px; }
+            .save-btn{ margin-top:8px; }
+
+            article p{ font-size:15px; text-align:left; }
+            article figure{ margin:20px 0; }
+            .main-image{ margin-bottom:18px; }
+
+            section iframe{ height:220px; margin:16px 0; max-width:100%; }
+
+            .news-grid{ padding:24px 0; margin-top:30px; }
+            .news-container{ padding:0 12px; }
+            .news-item{ float:none; width:100%; margin:0 0 16px 0; }
+            .news-item img{ height:160px; }
+
+            .footer-container{ padding:0 12px; }
+            .footer-sections{ margin-bottom:24px; }
+            .footer-column{ float:none; width:100%; padding:0; margin-bottom:16px; }
+            .social-links{ margin-bottom:24px; }
+        }
+
+/* MEDIA QUERY TABLET*/
+    @media screen and (min-width: 481px) and (max-width: 1024px){
+        .btn-registrar{ display: none;}
+        .container{ padding:16px; }
+        .main-article{ float:left; width:64%; padding-right:28px; box-sizing:border-box; }
+        .sidebar{ display:block; float:right; width:36%; padding:16px; box-sizing:border-box; }
+        .menu{ display:block; position:static; box-shadow:none; border:0; text-align:center; }
+        .menu li{ display:inline-block; margin:0 10px; }
+        .navbar-left{ float:left; }
+        .breadcrumb{ font-size:12px; margin-bottom:14px; }
+        .article-title{ font-size:30px; line-height:1.26; margin-bottom:14px; }
+        .article-subtitle{ font-size:16px; line-height:1.4; margin-bottom:18px; }
+        .separator{ margin:20px 0; }
+        .article-meta{ font-size:12px; }
+        .article-date{ float:left; margin-top:6px; }
+        .share-buttons{ float:right; }
+        .share-btn{ width:34px; height:34px; line-height:32px; font-size:13px; }
+        article p{ font-size:16px; text-align:justify; }
+        article figure{ margin:24px 0; }
+        .main-image{ margin-bottom:20px; }
+        section iframe{ width:100%; max-width:100%; height:360px; margin:20px 0; }
+        .news-grid{ padding:32px 0; margin-top:40px; }
+        .news-container{ padding:0 16px; }
+        .news-item{ width:48%; float:left; margin-right:4%; margin-bottom:20px; }
+        .news-item:nth-child(2n){ margin-right:0; }
+        .news-item img{ height:170px; }
+        .footer-container{ padding:0 16px; }
+        .footer-sections{ margin-bottom:32px; }
+        .footer-column{ width:50%; float:left; padding:0 16px; box-sizing:border-box; }
+        .footer-column:nth-child(3){ width:100%; margin-top:16px; padding:0; }
+        .container::after, .news-container::after, .footer-sections::after{ content:""; display:table; clear:both; }
+    }
+
+/* MEDIA QUERY DESKTOP*/
+    @media screen and (min-width: 1025px){
+        .container{ padding:20px; }
+        .main-article{ float:left; width:65%; padding-right:40px; box-sizing:border-box; }
+        .sidebar{ display:block; float:right; width:35%; padding:20px; box-sizing:border-box; }
+        .menu{ display:block; position:static; }
+        .hamburger{ display:none; }
+        .acciones{ display:block; float:right; }
+        .navbar-left{ float:left; }
+        .news-item{ width:32%; float:left; margin-right:2%; margin-bottom:30px; }
+        .news-item:nth-child(3n){ margin-right:0; }
+        .news-item img{ height:180px; }
+        section iframe{ width:100%; max-width:800px; height:450px; margin:30px 0; }
+        .container::after, .news-container::after, .footer-sections::after{ content:""; display:table; clear:both; }
+    }
+
+    @media (max-width: 1900px){ .menu li:nth-last-child(-n+1){ display:none; } }
+    @media (max-width: 1565px){ .menu li:nth-last-child(-n+2){ display:none; } } 
+    @media (max-width: 1474px){ .menu li:nth-last-child(-n+3){ display:none; } } 
+    @media (max-width: 1387px){ .menu li:nth-last-child(-n+4){ display:none; } } 
+    @media (max-width: 1296px){ .menu li:nth-last-child(-n+5){ display:none; } } 
+    @media (max-width:  1218px){ .menu li:nth-last-child(-n+6){ display:none; } } 
+    @media (max-width:  1090px){ .menu li:nth-last-child(-n+7){ display:none; } } 
+    @media (max-width:  1002px){ .menu li:nth-last-child(-n+8){ display:none; } }
+            
