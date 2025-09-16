@@ -18,7 +18,7 @@ Se abrió PR a main, revisión y merge.
 # Actividad Clase 4 
 Este proyecto consiste en replicar una noticia del diario con HTML y CSS de forma **pixel perfect**.
 ## Noticia original
-<!-- https://www.infobae.com/deportes/2025/08/24/argentina-inspirada-y-aplastaron-a-los-all-blacks-la-reaccion-de-los-medios-en-nueva-zelanda-tras-el-historico-triunfo-de-los-pumas/ -->
+https://www.infobae.com/deportes/2025/08/24/argentina-inspirada-y-aplastaron-a-los-all-blacks-la-reaccion-de-los-medios-en-nueva-zelanda-tras-el-historico-triunfo-de-los-pumas/ 
 
 # Actividad Clase 5
 Responsive + Media Queries + Menú hamburguesa (sin Flexbox)
@@ -27,4 +27,5 @@ Observaciones:
 En la parte re realziar Media Queries la pagina infobae cuando se va reducionedo su pantallas en su encabezado va oculatandose sus palabra intente realizarlo 
 de la forma que investigue no se si fue y es la forma correcta.Lo realize con varias media queries. Disculpen si es la forma correcta. 
 
-Link github 
+Link github
+https://francocorbalan09.github.io/intro-web-2025/
